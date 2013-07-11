@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Backbone</title>
+
+		<script type="text/javascript" src="jquery-2.0.3.min.js"></script>
+		<script type="text/javascript" src="underscore-min.js"></script>
+		<script type="text/javascript" src="backbone-min.js"></script>
+
+	</head>
+	<body>
+		<script type="text/template" id="first_template">
+			<label>My 1st View</label>
+			<a href="#second">Go to 2nd View</a>
+		</script>
+
+		<script type="text/template" id="second_template">
+			<label>My 2nd View</label>
+			<a href="#first">Go to 1st View</a>
+		</script>
+
+		<div id="container"></div>
+		<script type="text/javascript" src="router.js"></script>
+	</body>
+</html>
